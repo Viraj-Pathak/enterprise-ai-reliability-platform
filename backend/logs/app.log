@@ -1,0 +1,18 @@
+2026-01-03 22:27:24,685 - train_model - INFO - Starting training for reliability models
+2026-01-03 22:27:24,689 - train_model - INFO - Generated synthetic dataset
+2026-01-03 22:27:25,417 - train_model - INFO - Trained RandomForest risk classifier
+2026-01-03 22:27:25,444 - train_model - INFO - Risk classifier report:
+              precision    recall  f1-score   support
+
+        HIGH       0.00      0.00      0.00         5
+         LOW       0.58      0.84      0.69        73
+      MEDIUM       0.99      0.97      0.98      1522
+
+    accuracy                           0.96      1600
+   macro avg       0.52      0.60      0.56      1600
+weighted avg       0.97      0.96      0.96      1600
+
+2026-01-03 22:27:25,470 - train_model - INFO - Saved risk classifier to C:\Users\viraj\Projects\enterprise-ai-reliability-platform\backend\models\risk_classifier.joblib
+2026-01-03 22:27:25,640 - train_model - INFO - Saved anomaly detector to C:\Users\viraj\Projects\enterprise-ai-reliability-platform\backend\models\anomaly_detector.joblib
+2026-01-03 22:28:04,571 - inference - INFO - Loaded models for inference
+2026-01-03 22:30:46,917 - api - INFO - Received metrics: {'cpu_usage': 88.0, 'memory_usage': 79.0, 'disk_usage': 90.0, 'network_latency_ms': 320.0, 'error_rate': 7.0, 'packet_loss': 4.0, 'requests_per_min': 4200.0}
