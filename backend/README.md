@@ -21,3 +21,14 @@ The platform uses:
 - Synthetic cloud metrics dataset → CPU, Memory, Disk, Latency, Packet Loss, Errors, Traffic load
 
 Models automatically save to:
+
+## How this project maps to real roles
+
+- **Data Science / ML Engineer**  
+  Feature engineering, model training, evaluation, saving artifacts, and serving models through an API.
+
+- **Data / Analytics Engineer**  
+  Designing schemas for metrics, building pipelines that transform raw metrics into risk signals.
+
+- **Backend / Platform Engineer**  
+  Building robust FastAPI services, logging, model loading, and exposing clean REST interfaces for dashboards and SRE tools.
